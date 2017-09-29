@@ -1,0 +1,35 @@
+{
+  "name": "postcss-mimic.css-data",
+  "version": "0.0.1",
+  "description": "Package that adds `@keyframes` from mimic.css.",
+  "main": "index.json",
+  "scripts": {
+    "debug": "node --inspect --debug-brk parse.js",
+    "build": "node parse.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retyui/postcss-mimic.css-data.git"
+  },
+  "keywords": [
+    "css",
+    "animation",
+    "keyframes",
+    "animate.css"
+  ],
+  "author": {
+    "name": "David Narbutovich",
+    "email": "vamnemne@gmail.com",
+    "url": "https://github.com/retyui"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retyui/postcss-mimic.css-data/issues"
+  },
+  "homepage": "https://github.com/retyui/postcss-mimic.css-data#readme",
+  "devDependencies": {
+    "css-parse-keyframes": "^0.0.4",
+    "mimic": "https://github.com/erictreacy/mimic.css"
+  }
+}
