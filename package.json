@@ -1,6 +1,6 @@
 {
   "name": "postcss-mimic.css-data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Package that adds `@keyframes` from mimic.css.",
   "main": "index.json",
   "scripts": {
