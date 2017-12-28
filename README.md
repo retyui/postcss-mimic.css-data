@@ -45,7 +45,7 @@ postcss(
 ## Regenerate:
 ```bash
 git clone https://github.com/retyui/postcss-mimic.css-data
-cd postcss-magic.css-data
+cd postcss-mimic.css-data
 npm install
 npm run build
 ```
