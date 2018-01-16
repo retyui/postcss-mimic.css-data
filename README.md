@@ -44,9 +44,9 @@ const postcssAnimations = require('postcss-animations');
 
 ## Other animation data:
 
-* ![npm postcss-animation.css-data](https://img.shields.io/npm/dm/postcss-animation.css-data.svg) [postcss-animation.css-data](https://github.com/retyui/postcss-animation.css-data)
-* ![npm postcss-magic.css-data](https://img.shields.io/npm/dm/postcss-magic.css-data.svg) [postcss-magic.css-data](https://github.com/retyui/postcss-magic.css-data)
-* ![npm postcss-tuesday.css-data](https://img.shields.io/npm/dm/postcss-tuesday.css-data.svg) [postcss-tuesday.css-data](https://github.com/retyui/postcss-tuesday.css-data)
+* [![npm postcss-animation.css-data](https://img.shields.io/npm/dm/postcss-animation.css-data.svg)](https://www.npmjs.com/package/postcss-animation.css-data) [postcss-animation.css-data](https://github.com/retyui/postcss-animation.css-data)
+* [![npm postcss-magic.css-data](https://img.shields.io/npm/dm/postcss-magic.css-data.svg)](https://www.npmjs.com/package/postcss-magic.css-data) [postcss-magic.css-data](https://github.com/retyui/postcss-magic.css-data)
+* [![npm postcss-tuesday.css-data](https://img.shields.io/npm/dm/postcss-tuesday.css-data.svg)](https://www.npmjs.com/package/postcss-tuesday.css-data) [postcss-tuesday.css-data](https://github.com/retyui/postcss-tuesday.css-data)
 
 ## Update data:
 
