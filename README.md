@@ -14,21 +14,23 @@ yarn add -D postcss-mimic.css-data postcss-animations
 ## Use
 
 ```js
-const           postcss = require('postcss');
-const postcssAnimations = require('postcss-animations');
+const postcss = require("postcss");
+const postcssAnimations = require("postcss-animations");
 
 (async () => {
   const CSS = `.my-tearDrop { animation-name: tearDrop; }`;
   const PLUGINS = [
     postcssAnimations({
-      data: [require('postcss-mimic.css-data')],
+      data: [require("postcss-mimic.css-data")],
       checkDuplications: true,
       disableCheckCssVariables: true
     })
   ];
 
   try {
-    const { css, messages } = await postcss(PLUGINS).process(CSS/*, {from,to}*/);
+    const { css, messages } = await postcss(PLUGINS).process(
+      CSS /*, {from,to}*/
+    );
     messages.map(msg => console.log(msg.toString()));
 
     console.log(css);
