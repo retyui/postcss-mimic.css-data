@@ -1,35 +1,26 @@
 {
-  "name": "postcss-mimic.css-data",
-  "version": "0.0.4",
-  "description": "Package that adds `@keyframes` from mimic.css.",
-  "main": "index.json",
-  "scripts": {
-    "debug": "node --inspect --debug-brk parse.js",
-    "build": "node parse.js",
-    "prepublish": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/retyui/postcss-mimic.css-data.git"
-  },
-  "keywords": [
-    "css",
-    "animation",
-    "keyframes",
-    "animate.css"
-  ],
-  "author": {
-    "name": "David Narbutovich",
-    "email": "vamnemne@gmail.com",
-    "url": "https://github.com/retyui"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/retyui/postcss-mimic.css-data/issues"
-  },
-  "homepage": "https://github.com/retyui/postcss-mimic.css-data#readme",
-  "devDependencies": {
-    "css-parse-keyframes": "^0.0.4",
-    "mimic": "https://github.com/erictreacy/mimic.css"
-  }
+	"version": "1.0.0",
+	"name": "postcss-mimic.css-data",
+	"description": "Package that adds `@keyframes` from mimic.css.",
+	"license": "MIT",
+	"main": "index.json",
+	"files": [],
+	"scripts": {
+		"build": "node parse.js",
+		"prepare": "npm run build"
+	},
+	"peerDependencies": {
+		"postcss-animations": "6.x"
+	},
+	"devDependencies": {
+		"css-parse-keyframes": "^0.0.4",
+		"mimic": "erictreacy/mimic.css"
+
+	},
+	"keywords": ["css", "animation", "keyframes", "mimic.css"],
+	"repository": "https://github.com/retyui/postcss-mimic.css-data",
+	"author": "David Narbutovich <vamnemne@gmail.com>",
+	"engines": {
+		"node": ">= 4.2"
+	}
 }
